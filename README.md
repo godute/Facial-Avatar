@@ -1,5 +1,17 @@
 # Facial-Avatar
+사용자의 표정을 실시간으로 따라하는 3D 캐릭터
 
-사용자의 얼굴 특징점 68가지를 Dlib를 이용해 추출한 뒤
-Assimp를 이용해 3d모델에 로드하고 3d모델의 특징점과 사용자의 특징점을
-매칭하여 사용자의 표정변화에 맞춰 모델의 표정을 변화시키는 프로그램
+## Environment
+C++
+
+## Dependencies
+```
+Assimp (3d Object loading)
+dlib (face detection)
+modern-opengl
+opencv
+```
+
+## Result
+![facialavatar1](https://user-images.githubusercontent.com/31815711/58609232-d851c200-82e1-11e9-9207-e4d47815153d.png)
+![facialavatar2](https://user-images.githubusercontent.com/31815711/58609233-d851c200-82e1-11e9-976a-b3784009ffc6.png)
